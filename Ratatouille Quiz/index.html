@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Rataouille Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="main">    
+      <h1>How Well Do You Know About Ratatouille?</h1>
+      <p>(Hints are located in the question marks!)</p>
+
+      <hr>
+
+      <p><h2>What year was Ratatouille released<a href="https://en.wikipedia.org/wiki/2007" target="_blank">?</a></h2></p>
+      <p><input type="number" id="question1"></p>
+
+      <p><h2>Is Remy a mouse or a rat<a href="https://www.britannica.com/animal/rat" target="_blank">?</a></h2> </p>
+      <p><img src="media/mouse.jpg" alt="mouse" width="100" height ="100"> <img src="media/rat.jpg" alt="rat" width="100" height="100"></p>
+      <p><input type="text" id="question2"></p>
+
+      <p><h2>Who says "Chew it slowly" in this audio clip<a href="https://disney.fandom.com/wiki/Remy" target="_blank">?</a></h2></p>
+        <audio controls style="height: 25px;">
+          <source src="media/Chew it slowly.mp3" type="audio/mpeg" >
+        Your browser does not support the audio element.
+        </audio>
+      <p><input type="text" id="question3"></p>
+
+      <p><h2>Can you fill in the blank of this quote<a href="https://en.wikipedia.org/wiki/Cook_(profession)" target="_blank">?</a></h2></p>
+      <p>"Anyone can ----, but only the fearless can be great."</p>
+      <p><input type="text" id="question4"></p>
+
+      <hr>
+      <p><button id="checkQuiz">Check Quiz</button></p>
+
+      <p id="result"></p>
+
+    </div>
+
+    <!-- Load Javascript-->
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
